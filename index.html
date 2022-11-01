@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="can1.css">
+  
+</head>
+<body>
+
+    <div class="container">
+   <form action="https://sheetdb.io/api/v1/ptsm9ukt2u3jb" method="POST" >  
+            <H3><center>FORM</center></H3>  
+  
+        <table >  
+        <tr> <th> Item </th> <th> Quantity </th> </tr>  
+        <tr>  
+        <td>  
+          <SELECT NAME="vegItem" >
+            <OPTION value="0">VEG</OPTION>  
+            <OPTION value="Veg Thali">Veg Thali-40</OPTION> 
+            <OPTION value="Veg Chowmein"> Veg Chowmein-35</OPTION>   
+            <OPTION value="Veg Momo">Veg Momo-40</OPTION>
+            <OPTION value="Paneer Roll">Paneer Roll-40</OPTION>    
+                  </SELECT>  
+        </td> <td> 
+          <input type="text" id="name" name="vegqty" 
+          minlength="1" maxlength="1" size="1">
+   
+        </td> </tr> <tr> <td>  
+          <SELECT NAME="nonItem" >  
+            <OPTION value="0">NONVEG</OPTION>  
+            <OPTION value="Egg Thali">Egg Thali-48</OPTION>  
+            <OPTION value="Fish Thali">Fish Thali-60</OPTION>  
+            <OPTION value="Chicken Thali">Chicken Thali-70</OPTION>
+            <OPTION value="Egg Roll"> Egg Roll-35</OPTION>  
+            <OPTION value="Chicken Roll">Chicken Roll-40</OPTION>  
+            <OPTION value="Chicken Momo">Chicken Momo-60</OPTION>  
+            <OPTION value="Egg-Chicken Roll">Egg-Chicken Roll-50</OPTION>  
+            </SELECT>  
+        </td> <td> <input type="text" id="name" name="nonqty" 
+          minlength="1" maxlength="1" size="1">
+    </td> </tr> <tr> <td>  
+        </table>  
+
+       <span id="vegItem"></span>
+       <span id="vegqty"></span>
+      
+       <span id="nonItem"></span>
+       <span id="nonqty"></span>
+               
+          <div class="check-box">
+            <h3><center>Enter code</center></h3>
+            <div class="pincode-input"></div>
+                <input type="text" placeholder="code" name="code" class="pincode" required>
+            
+            </div>
+            <div class="msg"></div>
+
+            <button onclick="" class="pincode-ckeckr-btn" type="submit" name="submit">ORDER</button>
+        </div>
+      </form>
+   </div>
+  <script src="can1.js"></script> 
+
+</body>
+</html>
